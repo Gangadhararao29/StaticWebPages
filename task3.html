@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Task-3</title>
+
+    <link href="./styles/t3styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="gridbtn" id="gridbtn">
+        <button onclick="gridview()">
+          <span class="material-icons">grid_view</span>
+        </button>
+      </div>
+      <div class="table" id="table"></div>
+      <div class="preinfo" id="preinfo">
+        the content will only be showed if it runs on a server,<br>If its running
+        on a server please refresh the page
+      </div>
+
+      <div style="display: none" id="listbtn" class="listbtn">
+        <button onclick="listview()">
+          <span class="material-icons"> format_list_bulleted </span>
+        </button>
+      </div>
+      <div class="cardmain" id="cardmain"></div>
+    </div>
+    <script type="text/javascript" src="./scripts/table_script.js"></script>
+  </body>
+</html>

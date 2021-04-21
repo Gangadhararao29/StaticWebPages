@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.content{
+    padding: 25px;    
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.one{
+    background-color: aqua;
+    border-radius: 10px;
+    padding-left:  25px;
+    padding-right: 25px;
+    flex-basis: 2;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.heading{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    color: blue;
+}
+
+.main {
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.description{
+    text-align: center;
+    color: blue; 
+    padding: 20px;
+}
